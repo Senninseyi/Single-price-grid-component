@@ -87,11 +87,12 @@ body {
 
 ul {
     padding: 0%;
+    margin-top: 0;
 }
 
 .list-us {
     list-style: none;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width: 768px) {
