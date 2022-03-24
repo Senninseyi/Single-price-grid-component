@@ -1,0 +1,124 @@
+body {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 45%;
+}
+
+.card-white {
+    background-color: white;
+    padding: 2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-white > h2 {
+    color: hsl(179, 47%, 52%);
+}
+
+.card-white > p:first-of-type {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+
+.card-green {
+    background-color: hsl(179, 62%, 54%);
+    display: flex;
+    flex-direction: row;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.monthly-card {
+    width: 50%;
+    padding: 1.5rem;
+    background-color: hsl(179, 47%, 52%);
+    border-bottom-left-radius: 10px;
+}
+
+.billing {
+}
+
+.billing > p {
+    display: flex;
+    align-items: center;
+}
+
+.billing > p > span {
+    font-weight: 700;
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.button {
+    cursor: pointer;
+    background-color: hsl(71, 73%, 54%);
+    padding: 12px 25px;
+    width: 89%;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: #000;
+    background-color: hsl(204, 43%, 93%);
+    box-shadow: 0px 4px 5px 4px #0000000F;
+}
+
+.why-us {
+    width: 50%;
+    padding: 1.5rem;
+}
+
+ul {
+    padding: 0%;
+}
+
+.list-us {
+    list-style: none;
+    margin-bottom: 3px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .body{
+        padding: 6rem;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .card-green {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .monthly-card {
+        width: auto;
+        border-bottom-left-radius: 0%;
+    }
+
+    .why-us {
+        width: auto;
+    }
+
+    .button {
+        width: 100%;
+    }
+}
