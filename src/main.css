@@ -74,14 +74,14 @@ body {
     color: white;
     font-weight: 700;
     border-radius: 5px;
-    transition: background-color 2s;
+    transition: background-color 1s;
 }
 
 .button:hover {
     color: #000;
     background-color: hsl(204, 43%, 93%);
     box-shadow: 0px 4px 5px 4px #0000000F;
-    transition-timing-function: ease-in;
+    transition-timing-function: ease-in-out;
 }
 
 .why-us {
